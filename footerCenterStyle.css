@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footerContainer{
+    width: auto; 
+    height:auto; 
+    background-color: #212529; 
+    color: aliceblue
+}
+
+.footerBody{
+    padding: 3rem
+}
+
+.footerHeader{
+    text-align: center;
+}
+
+.footerPara{
+    margin-top: 1rem; 
+    color: #ffffff74; 
+    text-align: center
+}
+
+.secondaryFooterWraper{
+    margin-top: 3rem; 
+    display: flex; 
+    justify-content: center
+}
+
+.secondaryFooterIcon{
+    width: 10rem;
+    display: flex;
+    justify-content: space-around
+}
+
+.secondaryFooterWraper > div > a:nth-child(1) > svg > path:hover{
+    fill: #40F8FF;
+}
+
+.secondaryFooterWraper > div > a:nth-child(2) > svg > path:hover{
+    width: 20;
+    height: 20;
+    fill: rgb(238, 0, 255);
+}
+
+.secondaryFooterWraper > div > a:nth-child(3) > svg > path:hover{
+    fill: #279EFF;
+}
+
+.secondaryFooterWraper > div > a:nth-child(4) > svg > path:hover{
+    fill: rgb(255, 0, 0);
+}
+
+.secondaryFooter{
+    width: 100%; 
+    height: 2rem; 
+    background-color: #000; 
+    width: 100% ; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+ /* RESPONSIVE SECTION ===================================================== *\
+    A. Styles for screens up to 600px wide                                     |
+    B. Styles for screens between 601px and 900px wide                         |
+    C. Styles for screens between 901px and 1200px wide                        |
+    D. Styles for screens larger than 1200px wide                              |
+    ----------------------------------------------------                       |
+    A. @media screen and (max-width: 600px) {}                                 |
+    B. @media screen and (min-width: 601px) and (max-width: 900px) {}          |
+    C. @media screen and (min-width: 901px) and (max-width: 1200px) {}         |
+    D. @media screen and (min-width: 1201px) {}                                |
+ \* =========================================================================*/
+
+/* Styles for screens up to 600px wide */
+@media screen and (max-width: 600px) {
+    h2.footerHeader{
+        font-size: 2rem;
+    }
+
+    p.footerPara{
+        font-size: 1.5rem;
+    }
+
+    .secondaryFooter p{
+        font-size: 15px;
+        margin-top: 12px;
+    }
+}
+
+/* Styles for screens between 601px and 900px wide */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    h2.footerHeader{
+        font-size: 2rem;
+    }
+
+    p.footerPara{
+        font-size: 1.3rem;
+    }
+
+    .secondaryFooter p{
+        font-size: 1rem;
+        margin-top: 12px;
+    }
+}
+
+/* Styles for screens between 901px and 1200px wide */
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    h2.footerHeader{
+        font-size: 2rem;
+    }
+
+    p.footerPara{
+        font-size: 1.5rem;
+    }
+
+    .secondaryFooter{
+        height: 2.5rem;
+    }
+
+    .secondaryFooter p{
+        font-size: 1rem;
+        margin-top: 12px;
+    }
+}
+
+/* Styles for screens larger than 1200px wide */
+@media screen and (min-width: 1201px) {
+    h2.footerHeader{
+        font-size: 2rem;
+    }
+
+    .footerParaWrap{
+        display: flex;
+        justify-content: center;
+    }
+
+    p.footerPara{
+        width: 45rem;
+        font-size: 1.5rem;
+    }
+
+    .secondaryFooter{
+        height: 3rem;
+    }
+
+    .secondaryFooter p{
+        font-size: 1rem;
+        margin-top: 12px;
+    }
+}
+  
