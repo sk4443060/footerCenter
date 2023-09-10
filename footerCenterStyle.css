@@ -36,21 +36,21 @@
     justify-content: space-around
 }
 
-.secondaryFooterWraper > div > a:nth-child(1) > svg > path:hover{
+.secondaryFooterWraper > div > a:nth-child(2) > svg > path:hover{
     fill: #40F8FF;
 }
 
-.secondaryFooterWraper > div > a:nth-child(2) > svg > path:hover{
+.secondaryFooterWraper > div > a:nth-child(3) > svg > path:hover{
     width: 20;
     height: 20;
     fill: rgb(238, 0, 255);
 }
 
-.secondaryFooterWraper > div > a:nth-child(3) > svg > path:hover{
+.secondaryFooterWraper > div > a:nth-child(4) > svg > path:hover{
     fill: #279EFF;
 }
 
-.secondaryFooterWraper > div > a:nth-child(4) > svg > path:hover{
+.secondaryFooterWraper > div > a:nth-child(5) > svg > path:hover{
     fill: rgb(255, 0, 0);
 }
 
