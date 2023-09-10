@@ -31,7 +31,7 @@
 }
 
 .secondaryFooterIcon{
-    width: 10rem;
+    width: 14rem;
     display: flex;
     justify-content: space-around
 }
@@ -141,7 +141,7 @@
 
     p.footerPara{
         width: 45rem;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .secondaryFooter{
@@ -149,8 +149,7 @@
     }
 
     .secondaryFooter p{
-        font-size: 1rem;
-        margin-top: 12px;
+        font-size: 14px;
+        /* margin-top: 12px; */
     }
 }
-  
